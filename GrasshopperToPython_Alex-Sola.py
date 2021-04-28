@@ -126,7 +126,6 @@ for list in allDivPts:
         newPts = k + zVector
         movedPts.append(newPts)
     allMovedPts.append(movedPts)
-    print(pt)
 
 d = th.list_to_tree(allMovedPts)
 
